@@ -7,7 +7,8 @@
         "search_provider": {
             "name": "Google Images",
             "search_url": "https://www.google.com/search?tbm=isch&hl=en&q={searchTerms}",
-            "suggest_url": "https://suggestqueries.google.com/complete/search?json&client=firefox&ds=i&hl=en&q={searchTerms}"
+            "suggest_url": "https://suggestqueries.google.com/complete/search?json&client=firefox&ds=i&hl=en&q={searchTerms}",
+            "keyword": "i"
         }
     }
 }
