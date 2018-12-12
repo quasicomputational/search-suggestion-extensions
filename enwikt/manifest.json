@@ -1,0 +1,13 @@
+{
+    "name": "Search English Wiktionary",
+    "permissions": [],
+    "manifest_version": 2,
+    "version": "1.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "English Wiktionary",
+            "search_url": "https://en.wiktionary.org/wiki/Special:Search?search={searchTerms}",
+            "suggest_url": "https://en.wiktionary.org/w/api.php?action=opensearch&search={searchTerms}"
+        }
+    }
+}

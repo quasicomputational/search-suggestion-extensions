@@ -1,0 +1,13 @@
+{
+    "name": "Dummy search engine",
+    "description": "Dummy search engine, to keep your keystrokes from Google.",
+    "permissions": [],
+    "manifest_version": 2,
+    "version": "1.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Dummy search engine (doesn't hit the network)",
+            "search_url": "https://dummy-search.invalid"
+        }
+    }
+}

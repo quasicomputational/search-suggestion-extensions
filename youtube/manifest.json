@@ -1,0 +1,13 @@
+{
+    "name": "Search YouTube",
+    "permissions": [],
+    "manifest_version": 2,
+    "version": "1.0",
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "YouTube",
+            "search_url": "https://www.youtube.com/results?search_query={searchTerms}",
+            "suggest_url": "https://suggestqueries.google.com/complete/search?json&client=firefox&ds=yt&hl=en&q={searchTerms}"
+        }
+    }
+}
